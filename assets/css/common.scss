@@ -73,7 +73,7 @@ $font-weight-semi-bold: 600;
 $font-weight-bold: 700;
 $font-weight-extra-bold: 800;
 
-// === Primary Colors ===
+// Primary Colors 
 $color-primary: #171717;
 $color-secondary:#F4F3ED;
 // gray Scale
@@ -120,3 +120,18 @@ $spacers: (
    26: 10.313rem,    //165px
    27: auto
 );
+
+// Transitions 
+$transition-base: all 0.2s ease-in-out; // 기본 전환 효과 (속성, 시간, 타이밍 함수)
+$transition-fade: opacity 0.15s linear; // 페이드 인/아웃 전환 효과
+
+/* logo 스타일 */
+.desktop_logo {
+    background-image: url('/assets/css/images/desktop_logo.svg');
+}
+.tablet_logo {
+    background-image: url('../images/MHMUSEUM_logo_tablet.svg');
+}
+.mobile_logo {
+    background-image: url('../images/MHMUSEUM_logo_mobile.svg');
+}
