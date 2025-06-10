@@ -1,0 +1,119 @@
+// Font Families
+$font-body: 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+$font-point: 'GangwonEduPower', sans-serif;
+
+// letter-spacing(point)
+$letter-spacing-point: 0.03em;
+$letter-spacing-point: 0.08em;
+
+// Font Sizes Map
+$font-sizes: (
+  default: (
+    h1: 1.375rem, // 22px
+    h2: 1.25rem, // 20px
+    h3: 1.125rem, // 18px
+    h4: 1rem, // 16px
+    h5: 0.875rem, // 14px
+    b1: 0.75rem, // 12px 
+    point: 3rem // 48px
+  ),
+   xl: (
+    h1: 3.5rem, // 56px
+    h2: 3rem, // 48px
+    h3: 2rem, // 32px
+    h4: 1.375rem, // 22px
+    h5: 1.125rem, // 18px
+    b1: 1.375rem, // 22px
+    b2: 1.25rem, // 20px
+    b3: 1.125rem, // 18px
+    b4: 1rem, // 16px
+    point: 8rem // 128px
+  ),
+  md: (
+    h1: 3rem, // 48px
+    h2: 2rem, // 32px
+    h3: 1rem, // 22px
+    h4: 1.125rem, // 18px
+    h5: 1rem, // 16px
+    b1: 1rem, // 16px
+    b2: 0.875rem, // 14px
+    point: 5.5rem // 88px
+  ),
+  sm: (
+    h1: 1.375rem, // 22px
+    h2: 1.25rem, // 20px
+    h3: 1.125rem, // 18px
+    h4: 1rem, // 16px
+    h5: 0.875rem, // 14px
+    b1: 0.75rem, // 12px
+    point: 3rem // 48px
+  )
+);
+
+// font-weight
+$font-weight-extra-light: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+
+// Primary Colors 
+$color-primary: #171717;
+$color-secondary:#F4F3ED;
+// gray Scale
+$color-black: #000000;
+$color-white: #FFFFFF;
+$color-gray-100: #F9F9F9;
+$color-gray-200: #E8E8E8;
+$color-gray-300: #D3D3D3;
+$color-gray-400: #C3C2BE;
+$color-gray-500: #92928E;
+$color-gray-600: #555553;
+$color-gray-700: #404040;
+$color-gray-800: #2C2C2C;
+$color-gray-900: #1C1C1C;
+
+// padding
+$spacers: (
+   0: 0,
+   1: 0.625rem,   //10px
+   2: 0.875rem,   //14px
+   3: 0.938rem,   //15px
+   4: 1.125rem,   //18px
+   5: 1.25rem,    //20px
+   6: 1.375rem,   //22px
+   7: 1.5rem,     //24px
+   8: 1.563rem,   //25px
+   9: 1.75rem,    //28px
+   10: 1.875rem,  //30px
+   11: 2rem,      //32px
+   12: 2.25rem,   //36px
+   13: 2.5rem,    //40px
+   14: 2.75rem,   //44px
+   15: 3rem,      //48px
+   16: 3.125rem,  //50px
+   17: 3.625rem,  //58px
+   18: 3.75rem,   //60px
+   19: 4rem,      //64px
+   20: 4.375rem,  //70px
+   21: 5.25rem,   //84px
+   22: 5.313rem,  //85px
+   23: 5.625rem,  //90px
+   24: 5.875rem,  //94px
+   25: 5.938rem,  //95px
+   26: 6rem,      //96px
+   27: 6.25rem,   //100px
+   28: 7.5rem,    //120px
+   29: 8.625rem,  //138px
+   30: 8.75rem,   //140px
+   31: 10.25rem,  //164px
+   32: 10.313rem, //165px
+   33: 11.875rem, //190px
+   34: auto
+);
+
+// Transitions 
+$transition-base: all 0.2s ease-in-out; // 기본 전환 효과 (속성, 시간, 타이밍 함수)
+$transition-fade: opacity 0.15s linear; // 페이드 인/아웃 전환 효과

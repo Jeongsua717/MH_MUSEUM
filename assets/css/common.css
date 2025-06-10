@@ -1,22 +1,22 @@
 @charset "UTF-8";
-h1, h2, h3, h4, h5, h6, p, a, span {
-  margin: 0;
-  padding: 0;
-}
-
+/* <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" /> 
+<link href="https://cdn.jsdelivr.net/gh/prgwrtr/GangwonEduFont/web/GangwonEduPower.css" rel="stylesheet">
+head 안에 넣기 */
+@import url("../css/variables.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/GangwonEduPower.woff2");
 body {
   font-size: 16px;
 }
 
-/* logo 스타일 */
 .desktop_logo {
-  background-image: url("/assets/css/images/desktop_logo.svg");
+  background-image: url("../images/desktop_logo.svg");
 }
 
 .tablet_logo {
-  background-image: url("../images/MHMUSEUM_logo_tablet.svg");
+  background-image: url("../images/tablet_logo.svg");
 }
 
 .mobile_logo {
-  background-image: url("../images/MHMUSEUM_logo_mobile.svg");
+  background-image: url("../images/mobile_logo.svg");
 }/*# sourceMappingURL=common.css.map */
